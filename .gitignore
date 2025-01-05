@@ -37,19 +37,61 @@ target
 test-result
 tmp
 .vscode/
+
+# scala-cli, bloop, metals
 .bsp/
 .scala-build/
+
+# scala 3
 .tasty
+
+# sbt
 project/project/
 project/target/
 target/
+
+# eclipse
 build/
 .classpath
 .project
 .settings
 .worksheet
 bin/
+
+# intellij idea
 *.ipr
 *.iws
+
+
+# other?
 .scala_dependencies
 .cache-main
+modified:   .bsp/sbt.json
+        modified:   .gitignore
+        modified:   project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs
+        modified:   project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output
+        modified:   project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp
+        modified:   project/target/streams/_global/update/_global/streams/out
+        modified:   project/target/streams/compile/_global/_global/compileOutputs/previous
+        modified:   project/target/streams/compile/dependencyClasspath/_global/streams/export
+        modified:   project/target/streams/compile/exportedProducts/_global/streams/export
+        modified:   project/target/streams/compile/externalDependencyClasspath/_global/streams/export
+        modified:   project/target/streams/compile/incOptions/_global/streams/out
+        modified:   project/target/streams/compile/managedClasspath/_global/streams/export
+        modified:   project/target/streams/runtime/dependencyClasspath/_global/streams/export
+        modified:   project/target/streams/runtime/exportedProducts/_global/streams/export
+        modified:   project/target/streams/runtime/externalDependencyClasspath/_global/streams/export
+        modified:   project/target/streams/runtime/fullClasspath/_global/streams/export
+        modified:   project/target/streams/runtime/internalDependencyClasspath/_global/streams/export
+        modified:   project/target/streams/runtime/managedClasspath/_global/streams/export
+        modified:   target/scala-2.13/update/update_cache_2.13/inputs
+        modified:   target/scala-2.13/update/update_cache_2.13/output
+        modified:   target/streams/_global/_global/dumpStructure/_global/streams/out
+        modified:   target/streams/_global/updateClassifiers/_global/streams/out
+        modified:   target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output
+        modified:   target/streams/compile/externalDependencyClasspath/_global/streams/export
+        modified:   target/streams/compile/managedClasspath/_global/streams/export
+        modified:   target/streams/runtime/externalDependencyClasspath/_global/streams/export
+        modified:   target/streams/runtime/managedClasspath/_global/streams/export
+        modified:   target/streams/test/externalDependencyClasspath/_global/streams/export
+        modified:   target/streams/test/managedClasspath/_global/streams/export
